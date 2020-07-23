@@ -12,10 +12,9 @@ const Navbar = () => {
         if (localStorage.getItem('darkMode')) {
             const dMode = (localStorage.getItem('darkMode') === 'true')
             setDarkMode(dMode)
-
-// eslint-disable-next-line
-
+        // eslint-disable-next-line
         }
+        // eslint-disable-next-line
     }, [])
     const onChange=()=>{
         setDarkMode(!darkMode)

@@ -1,4 +1,4 @@
-import React, {Fragment, Suspense, lazy, useState,useEffect} from 'react';
+import React, {Fragment} from 'react';
 
 import Navbar from "./Components/layout/Navbar";
 import './App.css'
