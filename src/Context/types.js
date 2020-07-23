@@ -1,0 +1,3 @@
+export const SEND_CONTACTS='SEND_CONTACTS';
+export const ERROR='ERROR';
+export const TOGGLE_DARK_MODE='TOGGLE_DARK_MODE';

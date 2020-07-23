@@ -1,0 +1,64 @@
+
+root{
+  --navbar-background:#fff;
+  --background:white;
+
+}
+body {
+  margin-top: 105px; }
+
+.navbar {
+  width: 100%;
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem; }
+
+#home {
+  position: relative;
+  background-color: #ffffff;
+  background-image: url("fancy-pants.jpg");
+
+  min-height: 600px; }
+#home .primary-overlay {
+  background: rgba(50, 146, 166, 0.53);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+
+#about-me img {
+  margin-top: -50px; }
+#about-me .card:hover {
+  background: rgba(83, 93, 97, 0.33);
+  color: #100d0d; }
+
+.example {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+  width: 10px;
+
+}
+::-webkit-scrollbar-track{
+  border:7px solid #232943;
+  box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(45deg,#06dee1,#79ff6c);
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+  #showcase h1 {
+    font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
