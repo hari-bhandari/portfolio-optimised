@@ -1,9 +1,7 @@
 import React, {Fragment} from 'react';
 
-import Navbar from "./Components/layout/Navbar";
 import './App.css'
 import DarkState from "./Context/darkMode/DarkState";
-import Footer from "./Components/layout/Footer";
 import ContactState from "./Context/contact/ContactState";
 function App() {
 
@@ -11,8 +9,7 @@ function App() {
         <DarkState>
             <ContactState>
                 <Fragment>
-                    <Navbar/>
-                    <Footer />
+                    asjk
                 </Fragment>
             </ContactState>
         </DarkState>
